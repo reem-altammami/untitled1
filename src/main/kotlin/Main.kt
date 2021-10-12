@@ -1,10 +1,11 @@
 
 fun main(args: Array<String>) {
-   var playerName="Reem"
-   var playerHealth=100
-     if (playerHealth==100){
-         println(playerName + " is great")
-     }else {
-         println(playerName + " is not great")
-     }
+   var studentName="Reem"
+   var studentGrade=50
+     if (studentGrade>=90){
+         println(studentName + " is Exc")
+     }else if(studentGrade<90&&studentGrade>=80) {
+         println(studentName + " is very good")
+     }else{
+         println("not handle")}
 }
