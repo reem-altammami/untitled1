@@ -4,8 +4,8 @@ fun main(args: Array<String>) {
 
     var noOfDozens=appleNo/dozen
     var remainApples=appleNo%dozen
-    println("the numbers of Apple:"+appleNo)
 
+    println("the numbers of Apple:"+appleNo)
     println("the numbers of dozens are:"+noOfDozens)
     println("the remain are"+remainApples)
 
